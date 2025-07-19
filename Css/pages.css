@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+label {
+    display: grid;
+    justify-content: center;
+}
+
+p{
+    font-size: 15px;
+    color: #fff;
+}
+
+div {
+    width: 300px;
+    display: grid;
+    grid-template-rows: 40px 50px;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    color: rgb(167, 163, 163);
+}
+
+button {
+    padding: 10px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #087b04;
+    color: #fff;
+    transition: ease-in-out 0.25s;
+}
+
+button:hover{
+    background-color: #d7f304;
+    color: black;
+    
+}
+
+button:active{
+    background-color: #b00404;
+}
+
+
+a{
+    width: 30px;
+    height: 30px;
+    background-color: #4d4a4a;
+    font-family: "Michroma", sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    left: 50%;
+    right: 50%;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 15px;
+}
+
+a:hover{
+    background-color: #b00404;
+    transition: 0.15s;
+}
+
+.result-container {
+    margin-top: 30px;
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.answer, .result {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    opacity: 100%;
+}
+
+input::placeholder{
+    color: rgb(167, 163, 163);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .result-container {
+        width: 300px;
+        height: 200px;
+    }
+
+    input, button {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    label, p {
+        font-size: 15px;
+    }
+
+    .answer, .result{
+        font-size: 30px;
+    }
+    
+    body{
+        margin-bottom: 270px;
+    }
+}

@@ -1,0 +1,10 @@
+input:focus{
+    border: none;
+    outline: 3px solid #6502ba;
+}
+
+.result{
+    font-weight: bold;
+    font-size: 40px;
+    color: #7909db;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Winky Rough", sans-serif;
+    align-content: center;
+}
+
+body {
+    font-size: 30px;
+    background-image: url(../Background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+}
+

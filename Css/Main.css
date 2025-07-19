@@ -1,0 +1,135 @@
+h1,p {
+    text-align: center;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.yellow, .blue, .purple,
+.blue, .orange, .red{
+    transition: 0.25s ease-in-out ;
+}
+
+.yellow{
+    background-color: #f0d826;
+}
+
+.yellow:hover {
+    background-color: #fce644;
+    color:  #c2ab02;
+}
+
+.yellow:active {
+    background-color: #faed91;
+    color:  #6e6101;
+}
+
+.purple{
+    background-color: #7909db;
+}
+
+.purple:hover {
+    background-color: #9933f2;
+    color:  #6502ba;
+}
+
+.purple:active {
+    background-color: #b05ef7;
+    color:  #460182;
+}
+
+.green{
+    background-color: #04c711;
+}
+
+.green:hover {
+    background-color: #40f74d;
+    color:  #01870a;
+}
+
+.green:active {
+    background-color: #95fc9c;
+    color:  #024f07;
+}
+
+.blue{
+    background-color: #0505fa;
+}
+
+.blue:hover {
+    background-color: #5252f7;
+    color:  #000091;
+}
+
+.blue:active {
+    background-color: #8d8dfc;
+    color:  #020254;
+}
+
+.orange{
+    background-color: #fc8f00;
+}
+
+.orange:hover {
+    background-color: #f7af4f;
+    color:  #995802;
+}
+
+.orange:active {
+    background-color: #fcc57c;
+    color:  #693c01;
+}
+
+.red{
+    background-color: #f20202;
+}
+
+.red:hover {
+    background-color: #fc4242;
+    color:  #9e0303;
+}
+
+.red:active {
+    background-color: #fa6b6b;
+    color:  #690101;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 30px;
+    }
+
+    .row {    
+        display: grid;
+        grid-template-columns: 150px;
+        justify-content: center;
+        column-gap: 25px;
+        row-gap: 50px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    
+}
